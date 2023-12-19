@@ -656,12 +656,12 @@ video {
   gap: 0.75rem;
 }
 
-.gap-6{
-  gap: 1.5rem;
-}
-
 .gap-4{
   gap: 1rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]){
@@ -692,18 +692,13 @@ video {
   border-color: rgb(255 255 255 / 0.2);
 }
 
-.bg-blackTextColor{
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 40 60 / var(--tw-bg-opacity));
-}
-
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-blackTextColor\/80{
   background-color: rgb(29 40 60 / 0.8);
+}
+
+.bg-blue-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }
 
 .bg-mainColor{
@@ -711,9 +706,9 @@ video {
   background-color: rgb(83 141 228 / var(--tw-bg-opacity));
 }
 
-.bg-blue-200{
+.bg-white{
   --tw-bg-opacity: 1;
-  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .object-cover{
