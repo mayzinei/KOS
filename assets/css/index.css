@@ -22,3 +22,59 @@ body {
 .mainNav ul li {
     @apply text-whiteTextColor font-semibold text-lg tracking-wider hover:text-mainColor hover:underline;
 }
+
+.hero-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+            rgba(15, 8, 31, 0.434),
+            rgba(11, 7, 47, 0.348)
+        ),
+        url("https://img.freepik.com/free-photo/successful-happy-business-team_53876-74892.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.about-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+            rgba(15, 8, 31, 0.434),
+            rgba(11, 7, 47, 0.348)
+        ),
+        url("https://img.freepik.com/free-photo/glowing-lines-human-heart-3d-shape-dark-background-generative-ai_191095-1435.jpg?size=626&ext=jpg&ga=GA1.1.2116175301.1701388800&semt=ais");
+    background-size: cover;
+    background-position: center;
+}
+.service-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+            rgba(15, 8, 31, 0.434),
+            rgba(11, 7, 47, 0.348)
+        ),
+        url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwcvQsM8-g8UhqIkYhqovspXo29w2py-MZLaIBlHXL9w6X15KhrwmQrEplNiMeVNnrkZsYznXjYFlLXwJ0a-cEI5OQv7_MUv1MF5xc434aM88hZZ-JnU-Id8EGWHOcAXCBAkEZL3VKjCWE-BtfLP7p8UoO50SZ0rOGd2OtV1gz2hDOfxd3UP6AG3TViQ/w640-h360/4k-pc-wallpaper-ai-art.webp");
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+            rgba(15, 8, 31, 0.434),
+            rgba(11, 7, 47, 0.348)
+        ),
+        url("https://img.freepik.com/premium-photo/beautiful-sunset-sea-illustration-flat-style_881236-1124.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.blog-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+            rgba(15, 8, 31, 0.434),
+            rgba(11, 7, 47, 0.348)
+        ),
+        url("https://c4.wallpaperflare.com/wallpaper/39/346/426/digital-art-men-city-futuristic-night-hd-wallpaper-thumb.jpg");
+    background-size: cover;
+    background-position: center;
+}
