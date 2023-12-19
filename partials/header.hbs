@@ -1,0 +1,50 @@
+<header id="gh-head" class="w-full absolute top-0 left-0">
+    {{! -----------Top Bar---------- }}
+    <div
+        class="bg-blackTextColor/80 backdrop-blur-sm text-white px-20 py-2 flex items-center gap-6"
+    >
+        <h1>Hello World</h1>
+        <h1>Hello World</h1>
+        <h1>Hello World</h1>
+    </div>
+    {{! --------------Nav Bar-------------- }}
+    <nav
+        class="flex items-center justify-between px-20 py-4 border-b border-white/20"
+    >
+
+        <div class="text-mainColor text-4xl font-bold">
+            <a href="{{@site.url}}">
+                {{#if @site.logo}}
+                    <img src="{{@site.logo}}" alt="{{@site.title}}" />
+                {{else}}
+                    {{@site.title}}
+                {{/if}}
+            </a>
+            <a class="gh-burger" role="button" aria-label="menu">
+                <div class="gh-burger-box">
+                    <div class="gh-burger-inner"></div>
+                </div>
+            </a>
+        </div>
+        <div class="mainNav">
+            {{navigation}}
+        </div>
+        <div class="gh-head-actions">
+            <div
+                class="gh-head-actions-list text-whiteTextColor flex items-center gap-4"
+            >
+                {{search}}
+                {{#if @site.members_enabled}}
+                    {{#if @member}}
+                        <a class="gh-button" href="#/portal/account">Account</a>
+                    {{else}}
+                        <a
+                            class="bg-mainColor text-whiteTextColor font-bold px-6 py-3 rounded-md uppercase tracking-wider"
+                            href="{{@site.signup_url}}"
+                        >Get Start</a>
+                    {{/if}}
+                {{/if}}
+            </div>
+        </div>
+    </nav>
+</header>
